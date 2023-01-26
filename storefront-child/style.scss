@@ -1,0 +1,46 @@
+
+/*
+Theme Name:   Jungle Flora Build
+Theme URI:    https://woocommerce.com/storefront/
+Description:  Store front Child Theme
+Author:       Ben Thomas-Gill
+Author URI:   http://www.benthomasgill.com
+Template:     storefront
+Version:      1.0.0
+License:      GNU General Public License v2 or later
+License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain:  storefront
+*/
+
+.bt-flex {
+    display: flex;
+    flex-direction: wrap;
+    flex-wrap: wrap;
+}
+
+.bt-1-2 {
+    width: 50%;
+    @media (max-width: 768px) {
+        width: 100%;
+    }
+}
+
+.site-info {
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .col-full {
+        max-width: 78.498938em;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0 2.617924em;
+        box-sizing: content-box;
+    }
+}
+
+#page {
+    .site-header {
+        margin-bottom: 0px;
+    }
+}
