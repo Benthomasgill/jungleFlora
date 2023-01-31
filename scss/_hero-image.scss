@@ -15,6 +15,13 @@
         }
         .cta {
             font-weight: 600;
+            font-weight: 200;
+            background-color: $drk-grey;
+            color: $white;
+            max-width: 205px;
+            margin: auto;
+            padding: 7px;
+            font-size: 1.1em;
         }
     }
 }

@@ -63,7 +63,14 @@ p, a {
       font-size: 1.3em;
       line-height: 28px; }
     .main-hero-cont .hero-overlay .cta {
-      font-weight: 600; }
+      font-weight: 600;
+      font-weight: 200;
+      background-color: #333333;
+      color: #ffffff;
+      max-width: 205px;
+      margin: auto;
+      padding: 7px;
+      font-size: 1.1em; }
 
 .foot-text {
   text-align: center;
