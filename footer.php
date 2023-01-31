@@ -29,10 +29,21 @@
 			 */
 			do_action( 'storefront_footer' );
 			?>
-
+		<p class="foot-text">
+		<strong>Acknowledgement of Country</strong><br>
+		We acknowledge the traditional custodians throughout Australia and their continuing connection to the land, waters and community. 
+		We pay our respects to all members of the Aboriginal communities and their cultures; and to Elders both past and present.
+		<br><br>
+		© Jungle Flora & Co <?php echo date('Y'); ?>
+		</p>
 
 		</div><!-- .col-full -->
 	</footer><!-- #colophon -->
+
+	<!-- Google Font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:wght@100;300;500&display=swap" rel="stylesheet">
 
 	<?php do_action( 'storefront_after_footer' ); ?>
 

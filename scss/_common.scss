@@ -1,0 +1,42 @@
+h1, h2, h3, h4, h5 {
+    font-family: $heading;
+}
+
+p, a {
+    font-family: $body;
+}
+
+.bt-flex {
+    display: flex;
+    flex-direction: wrap;
+    flex-wrap: wrap;
+}
+
+.bt-1-2 {
+    width: 50%;
+    @media (max-width: 768px) {
+        width: 100%; 
+    }
+}
+
+.site-info {
+    display: none;
+}
+
+
+@media (min-width: 768px) {
+    .col-full {
+        max-width: 78.498938em;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0 2.617924em;
+        box-sizing: content-box;
+    }
+}
+
+#page {
+    .site-header {
+        margin-bottom: 0px;
+    }
+}
+

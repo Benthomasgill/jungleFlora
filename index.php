@@ -2,11 +2,20 @@
 
 
 get_header(); ?>
+		<div class="main-hero-cont">
 		<?php if (!wp_is_mobile()) { ?>
-			<img alt="Jungle Flora Hero Image" src="https://via.placeholder.com/1600x600.png">
+			<img alt="Jungle Flora Hero Image" src="<?php echo get_template_directory_uri();?>-child/assets/images/HeroSliderD.jpg">
+			<div class="hero-overlay">
+				<h2>Natives, pops of colour, neutrals</h2>
+				<p>Create a unique personalised design like a bouquet, installation, pot or vase arrangement.</p>
+				<a href="">
+					<p class="cta">SHOP NATIVES</p>
+				</a>
+			</div>
 		<?php } else { ?>
 			<img alt="Jungle Flora Hero Image" src="https://via.placeholder.com/960x960.png">
 		<?php } ?>	
+		</div>
 		<div class="bt-flex">
 			<div class="bt-1-2"><img alt="" src="https://via.placeholder.com/800x600.png"></div>
 			<div class="bt-1-2"><img alt="" src="https://via.placeholder.com/800x600.png"></div>

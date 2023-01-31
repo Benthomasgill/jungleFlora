@@ -1,0 +1,8 @@
+.main-hero-cont {
+  position: relative;
+  text-align: center;
+  color: white; }
+  .main-hero-cont .top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px; }

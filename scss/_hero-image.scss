@@ -1,0 +1,20 @@
+.main-hero-cont {
+    position: relative;
+    text-align: center;
+    color: white;
+    .hero-overlay {
+        position: absolute;
+        top: 158px;
+        right: 134px;
+        max-width: 460px;
+        p {
+            color: $drk-grey;
+            font-weight: 200;
+            font-size: 1.3em;
+            line-height: 28px;
+        }
+        .cta {
+            font-weight: 600;
+        }
+    }
+}

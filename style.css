@@ -10,6 +10,12 @@ License:      GNU General Public License v2 or later
 License URI:  http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain:  storefront
 */
+h1, h2, h3, h4, h5 {
+  font-family: "Playfair Display", serif; }
+
+p, a {
+  font-family: "Roboto", sans-serif; }
+
 .bt-flex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -28,7 +34,7 @@ Text Domain:  storefront
       width: 100%; } }
 
 .site-info {
-  text-align: center; }
+  display: none; }
 
 @media (min-width: 768px) {
   .col-full {
@@ -41,3 +47,24 @@ Text Domain:  storefront
 
 #page .site-header {
   margin-bottom: 0px; }
+
+.main-hero-cont {
+  position: relative;
+  text-align: center;
+  color: white; }
+  .main-hero-cont .hero-overlay {
+    position: absolute;
+    top: 158px;
+    right: 134px;
+    max-width: 460px; }
+    .main-hero-cont .hero-overlay p {
+      color: #333333;
+      font-weight: 200;
+      font-size: 1.3em;
+      line-height: 28px; }
+    .main-hero-cont .hero-overlay .cta {
+      font-weight: 600; }
+
+.foot-text {
+  text-align: center;
+  font-weight: 200; }
