@@ -38,7 +38,7 @@ p, a {
 
 @media (min-width: 768px) {
   .col-full {
-    max-width: 78.498938em;
+    max-width: 92.498938em;
     margin-left: auto;
     margin-right: auto;
     padding: 0 2.617924em;
@@ -75,3 +75,24 @@ p, a {
 .foot-text {
   text-align: center;
   font-weight: 200; }
+
+.site-header .site-branding img {
+  max-width: 120px; }
+
+.storefront-primary-navigation {
+  position: absolute;
+  top: 40px;
+  right: 100px;
+  width: 80%;
+  padding-left: 50px;
+  max-width: 1300px; }
+  @media (max-width: 750px) {
+    .storefront-primary-navigation {
+      position: initial;
+      width: 100%; } }
+
+.site-search {
+  position: absolute;
+  right: 400px;
+  top: 58px;
+  z-index: 9999; }
