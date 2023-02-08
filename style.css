@@ -72,9 +72,36 @@ p, a {
       padding: 7px;
       font-size: 1.1em; }
 
+.desktop-hero {
+  display: block; }
+  @media (max-width: 960px) {
+    .desktop-hero {
+      display: none; } }
+
+.mobile-hero {
+  display: none; }
+  @media (max-width: 960px) {
+    .mobile-hero {
+      display: block; } }
+
 .foot-text {
   text-align: center;
   font-weight: 200; }
+
+.site-footer {
+  text-align: center; }
+
+.social-footer {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 20px; }
+  .social-footer img {
+    max-width: 30px; }
+  .social-footer .fb {
+    max-height: 30px; }
+  .social-footer .in {
+    margin-left: 10px; }
 
 .site-header .site-branding img {
   max-width: 120px; }
@@ -89,7 +116,7 @@ p, a {
   width: 80%;
   padding-left: 50px;
   max-width: 1370px; }
-  @media (max-width: 750px) {
+  @media (max-width: 1335px) {
     .storefront-primary-navigation {
       position: initial;
       width: 100%; } }
@@ -99,3 +126,19 @@ p, a {
   right: 400px;
   top: 58px;
   z-index: 9999; }
+
+.search-icon {
+  position: absolute;
+  left: 66%;
+  top: 43%;
+  z-index: 99999; }
+  @media (max-width: 1335px) {
+    .search-icon {
+      top: 72%; } }
+
+.woocommerce-active .site-header .site-search {
+  top: 150px;
+  background-color: #fff;
+  width: 100%;
+  right: 0px;
+  padding: 20px 40px; }

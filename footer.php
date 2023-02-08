@@ -16,10 +16,6 @@
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="col-full">
-		<div class="bt-flex">
-			<img alt="Facebook" src="https://via.placeholder.com/90x90.png">
-			<img alt="Instagram" src="https://via.placeholder.com/90x90.png">
-		</div>
 			<?php
 			/**
 			 * Functions hooked in to storefront_footer action
@@ -30,12 +26,18 @@
 			do_action( 'storefront_footer' );
 			?>
 		<p class="foot-text">
+		<nav>
+			<span>Shop	|	Account	|	About	|	FAQs |	Shipping</span>
+		</nav>
+		<div class="bt-flex social-footer">
+			<img class="fb" alt="Facebook" src="<?php echo get_template_directory_uri();?>-child/assets/images/social/facebook.svg">
+			<img class="in" alt="Instagram" src="<?php echo get_template_directory_uri();?>-child/assets/images/social/instagram.svg">
+		</div>			
 		<strong>Acknowledgement of Country</strong><br>
 		We acknowledge the traditional custodians throughout Australia and their continuing connection to the land, waters and community. 
 		We pay our respects to all members of the Aboriginal communities and their cultures; and to Elders both past and present.
-		<br><br>
-		© Jungle Flora & Co <?php echo date('Y'); ?>
 		</p>
+		<p>© Jungle Flora & Co <?php echo date('Y'); ?></p>
 
 		</div><!-- .col-full -->
 	</footer><!-- #colophon -->

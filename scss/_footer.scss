@@ -2,3 +2,21 @@
     text-align: center;
     font-weight: 200;
 }
+
+.site-footer {
+    text-align: center;
+}
+
+.social-footer {
+    justify-content: center;
+    margin: 20px;
+    img {
+        max-width: 30px;
+    }
+    .fb {
+        max-height: 30px;
+    }
+    .in {
+        margin-left: 10px;
+    }
+}

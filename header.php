@@ -28,6 +28,7 @@
 	<?php do_action( 'storefront_before_header' ); ?>
 
 	<header id="masthead" class="site-header" role="banner" style="<?php storefront_header_styles(); ?>">
+	<img onclick="toggleVisibility();" alt="Search Icon" class="search-icon" src="<?php echo get_template_directory_uri();?>-child/assets/images/icons/search.svg">
 
 
 		<?php
@@ -59,6 +60,17 @@
 	 */
 	do_action( 'storefront_before_content' );
 	?>
+
+	<script>
+		function toggleVisibility() {
+		var element = document.getElementById("toggle-search");
+		if (element.style.display === "none") {
+			element.style.display = "block";
+		} else {
+			element.style.display = "none";
+		}
+		}
+	</script>
 
 	<div id="content" class="site-content" tabindex="-1">
 		<div class="col-full">

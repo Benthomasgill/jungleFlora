@@ -25,3 +25,17 @@
         }
     }
 }
+
+.desktop-hero {
+    display: block;
+    @media (max-width: 960px) {
+        display: none;
+    }
+}
+
+.mobile-hero {
+    display: none;
+    @media (max-width: 960px) {
+        display: block;
+    }
+}

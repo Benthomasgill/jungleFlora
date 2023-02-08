@@ -9,7 +9,7 @@ $ctalink = get_field('cta_link');
 
 get_header(); ?>
 		<div class="main-hero-cont">
-		<?php if (!wp_is_mobile()) { ?>
+		<div class="desktop-hero">
 			<img alt="Jungle Flora Hero Image" src="<?php echo $dimage['url']; ?>">
 			<div class="hero-overlay">
 				<h2><?php echo $htext; ?></h2>
@@ -18,9 +18,10 @@ get_header(); ?>
 					<p class="cta"><?php echo $ctatext; ?></p>
 				</a>
 			</div>
-		<?php } else { ?>
+		</div>
+		<div class="mobile-hero">
 			<img alt="Jungle Flora Hero Image" src="<?php echo $mimage['url']; ?>">
-		<?php } ?>	
+		</div>	
 		</div>
 		<div class="bt-flex">
 			<div class="bt-1-2"><img alt="" src="<?php echo get_template_directory_uri();?>-child/assets/images/placeholder1.jpg"></div>

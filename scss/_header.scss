@@ -16,7 +16,7 @@
     width: 80%;
     padding-left: 50px;
     max-width: 1370px;
-    @media (max-width: 750px) {
+    @media (max-width: 1335px) {
         position: initial;
         width: 100%;
     }
@@ -27,4 +27,26 @@
     right: 400px;
     top: 58px;
     z-index: 9999;
+}
+
+.search-icon {
+    position: absolute;
+    left: 66%;
+    top: 43%;
+    z-index: 99999;
+    @media (max-width: 1335px) {
+        top: 72%;
+    } 
+}
+
+.woocommerce-active {
+     .site-header {
+        .site-search {
+        top: 150px;
+        background-color: #fff;
+        width: 100%;
+        right: 0px;
+        padding: 20px 40px;
+        }
+    }
 }
